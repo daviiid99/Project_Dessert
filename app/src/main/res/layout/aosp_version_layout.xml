@@ -26,10 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Source"
-        android:layout_below="@+id/tvApi"
-        android:layout_toEndOf="@+id/btnActivity"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/btnActivity"
+        android:layout_toEndOf="@+id/icon"
         android:backgroundTint="@color/green"
 
         />
@@ -73,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/tvApi"
+        android:layout_below="@+id/icon"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="170dp"
         android:textColor="@color/white"
