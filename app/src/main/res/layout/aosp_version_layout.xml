@@ -21,6 +21,30 @@
         android:scaleType="centerCrop"
         android:contentDescription="@android:string/autofill"/>
 
+    <Button
+        android:id="@+id/btnSource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source"
+        android:layout_below="@+id/tvApi"
+        android:layout_toEndOf="@+id/btnActivity"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@color/green"
+
+        />
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:layout_below="@+id/tvApi"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginTop="10dp"
+
+        />
+
     <TextView
         android:id="@+id/tvVersion"
         android:layout_width="wrap_content"
